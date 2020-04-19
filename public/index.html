@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Gec Chat</title>
+</head>
+
+<body>
+    <div id="selectRoom">
+        <label>Type the room number</label>
+        <input id="roomNumber" type="text"/>
+        <button id="goRoom">Go</button>
+    </div>
+
+    <div id="conferenceRoom" style="display:none">
+        <video id="localVideo" autoplay></video>
+        <video id="remoteVideo" autoPlay></video>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+    
+</body>
