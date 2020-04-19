@@ -4,6 +4,14 @@ const app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http)
 
+app.get('/', function (req, res) {
+    res.send('root')
+  })
+  // respond with "hello world" when a GET request is made to the homepage
+  app.get('/favicon.ico', function (req, res) {
+    res.send('root')
+  })
+
 //static hosting with Express
 app.use(express.static('public'));
 
