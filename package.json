@@ -1,19 +1,26 @@
 {
-  "name": "GecChat",
+  "name": "gecchat",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Srinath Kailasa",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.15.4",
     "socket.io": "^2.0.3",
     "socket.io-client": "^2.3.0"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "<h1 align='center'>GecChat</h1>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skailasa/GecChat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skailasa/GecChat/issues"
+  },
+  "homepage": "https://github.com/skailasa/GecChat#readme"
 }
